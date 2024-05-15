@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.logo",
+      "required": true
+    },
+    "navbar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.nav-bar"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.cta-button"
+    },
+    "socialLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.link"
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_cta_buttons",
+  "info": {
+    "displayName": "ctaButton"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
